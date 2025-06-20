@@ -1,84 +1,82 @@
-📚 Library Management System (SQL Project)
-Welcome to the Library Management System SQL project developed by Shubham Parmar as part of a hands-on data analysis journey. This project demonstrates the creation, population, and querying of a relational database to manage book inventories, library branches, loans, and more using SQL.
+# 📚 Library Management System (SQL Project)
 
-🔍 Project Objective
+Welcome to the **Library Management System** SQL project developed by **Shubham Parmar** as part of a hands-on data analysis journey. This project demonstrates the creation, population, and querying of a relational database to manage book inventories, library branches, loans, and more using **SQL**.
+
+---
+
+## 🎯 Project Objective
+
 To design and analyze a Library Management System database that:
 
-Tracks book inventory and availability.
+- Tracks book inventory and availability.
+- Manages loan activity across multiple branches.
+- Extracts insights using SQL queries and visualizations for decision-making.
 
-Manages loan activity across multiple branches.
+---
 
-Extracts insights using SQL queries and visualizations for decision-making.
-
-📁 Repository Structure
-pgsql
-Copy
-Edit
+## 📁 Repository Structure
 ├── 📄 LIBRARY_MANAGEMENT_SYSTEM_TABLES_AND_DATA.sql
 ├── 📄 Questions_and_their_queries.sql
 ├── 📄 LIBRARY MANAGEMENT SYSTEM (Presentation).pdf
 └── 📄 README.md
-🔸 LIBRARY_MANAGEMENT_SYSTEM_TABLES_AND_DATA.sql
-This file:
-
-Creates the full schema: tables for books, authors, branches, borrowers, loans, and publishers.
-
-Establishes foreign key relationships.
-
-Handles date parsing and data formatting issues using STR_TO_DATE().
-
-Prepares the environment for querying and analysis.
-
-🔸 Questions_and_their_queries.sql
-Includes real-world SQL queries and analysis such as:
-
-Finding borrowers who haven’t checked out books.
-
-Determining most popular books and authors by branch.
-
-Analyzing loan trends and branch-wise activity.
-
-Filtering books by authors or due dates.
-
-🔸 LIBRARY MANAGEMENT SYSTEM (Presentation).pdf
-A PowerPoint-style summary of the project which includes:
-
-ER diagrams and schema breakdown
-
-SQL insights and output observations
-
-Final business insights and key conclusions
-
-Challenges faced during development
-
-Author profile and project journey
-
-📈 Key Business Insights
-Seasonal Borrowing Trends: Highest loan activity in January 2018.
-
-Branch Utilization: Ann Arbor had the highest engagement, while others like Sharpstown were underutilized.
-
-Author Popularity: Patrick Rothfuss and Stephen King featured prominently in loan data.
-
-Inventory Optimization: Some books had just 1 copy per branch, opening room for stock enhancement.
-
-🛠 How to Use
-Import the LIBRARY_MANAGEMENT_SYSTEM_TABLES_AND_DATA.sql file into your MySQL server.
-
-Run the Questions_and_their_queries.sql file to perform various analysis and retrieve insights.
-
-Modify queries as needed for extended insights or reporting.
-
-✅ Prerequisites
-MySQL installed and running.
-
-Any SQL client like MySQL Workbench or DBeaver.
-
-Basic understanding of SQL and relational databases.
-
-👨‍💻 Author
-Shubham Parmar
-📧 LinkedIn Profile : https://www.linkedin.com/in/shubham-parmar-12164024a/
 
 
-Feel free to clone, explore, or contribute. If you find this useful, do ⭐️ the repository!
+- **`LIBRARY_MANAGEMENT_SYSTEM_TABLES_AND_DATA.sql`**  
+  Contains table definitions, constraints, data import instructions, and data formatting logic.
+
+- **`Questions_and_their_queries.sql`**  
+  Includes analytical queries used to derive insights, such as popular books, branch activity, borrower behavior, etc.
+
+- **`LIBRARY MANAGEMENT SYSTEM (Presentation).pdf`**  
+  A visual report that presents the project overview, ER diagrams, outputs, challenges, and final insights.
+
+---
+
+## 📊 Key Business Insights
+
+- 📅 **Seasonal Borrowing Trends**: Most book loans occurred in January 2018.
+- 🏢 **Branch Utilization**: Ann Arbor showed the highest loan volumes, while Sharpstown, Central, and Saline were underutilized.
+- ✍️ **Author Popularity**: Patrick Rothfuss had the highest loans in Ann Arbor; Stephen King's books were frequently borrowed at the Central branch.
+- 📦 **Inventory Optimization**: Some books like *The Lost Tribe* had only one copy per branch, indicating potential for increased inventory.
+
+---
+
+## 🛠️ How to Use
+
+1. Open MySQL Workbench or your preferred SQL client.
+2. Run `LIBRARY_MANAGEMENT_SYSTEM_TABLES_AND_DATA.sql` to create and populate the database.
+3. Execute `Questions_and_their_queries.sql` to perform analytical queries.
+4. Visualize the insights or adapt the queries to suit your analysis needs.
+
+---
+
+## 🧰 Technologies Used
+
+- **MySQL** for relational database design and queries.
+- **Python (Seaborn, Matplotlib)** for optional data visualizations (not included in this repo).
+- **SQL Joins, Aggregations, and Subqueries** for analytical querying.
+- **ER Modeling** for schema design.
+
+---
+
+## ⚠️ Challenges Faced
+
+- Inconsistent date formats during import required converting `VARCHAR` to `DATE` using `STR_TO_DATE()` function.
+- Complex joins across multiple tables like `tbl_book_loans`, `tbl_borrowers`, `tbl_library_branch`.
+- Ensuring referential integrity with proper foreign key constraints.
+
+---
+
+## 👨‍💻 Author
+
+**Shubham Parmar**
+
+- 🎓 Bachelor of Computer Applications – *Parul University, Vadodara*
+- 🌱 Data Science Enthusiast | SQL & Python Learner
+- 🔗 [LinkedIn](https://www.linkedin.com/in/shubham-parmar-12164024a/)
+- 💻 [GitHub](https://github.com/shubham132004)
+
+
+
+> Feel free to ⭐️ the repo if you found this helpful and fork it to build upon!
+
