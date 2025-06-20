@@ -1,10 +1,4 @@
 
-## 📄 Project Presentation
-
-You can view the project presentation [here (PDF)](./LIBRARY%20MANAGEMENT%20SYSTEM%20(1).pdf).
-
-
-
 # 📚 Library Management System (SQL Project)
 
 Welcome to the **Library Management System** SQL project developed by **Shubham Parmar** as part of a hands-on data analysis journey. This project demonstrates the creation, population, and querying of a relational database to manage book inventories, library branches, loans, and more using **SQL**.
