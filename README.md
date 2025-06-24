@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/23b450e2-da26-4cf7-9e63-3ff1128bc05a)
+If you want to refer the presentation file click on the below link : 
 
 # 📚 Library Management System (SQL Project)
 
