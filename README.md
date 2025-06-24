@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/23b450e2-da26-4cf7-9e63-3ff1128bc05a)
-If you want to refer the presentation file click on the below link : 
-
+If you want to refer to the presentation file, click the link below:  
+[🔗 LIBRARY MANAGEMENT SYSTEM - Presentation](https://github.com/shubham132004/LIBRARY-MANAGEMENT-SYSTEM/blob/main/LIBRARY%20MANAGEMENT%20SYSTEM%20(1)-compressed.pdf)
 # 📚 Library Management System (SQL Project)
 
 Welcome to the **Library Management System** SQL project developed by **Shubham Parmar** as part of a hands-on data analysis journey. This project demonstrates the creation, population, and querying of a relational database to manage book inventories, library branches, loans, and more using **SQL**.
